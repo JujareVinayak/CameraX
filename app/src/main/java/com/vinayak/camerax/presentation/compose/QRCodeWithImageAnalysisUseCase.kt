@@ -1,7 +1,7 @@
 /*
  * Copyright © 2023 Mercedes-Benz Research & Development India. All rights reserved.
  */
-package com.example.camerax.presentation.compose
+package com.vinayak.camerax.presentation.compose
 
 import android.Manifest
 import android.annotation.SuppressLint

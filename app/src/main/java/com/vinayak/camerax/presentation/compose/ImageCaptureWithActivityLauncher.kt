@@ -1,4 +1,4 @@
-package com.example.camerax.presentation.compose
+package com.vinayak.camerax.presentation.compose
 
 import android.Manifest
 import android.content.Context
@@ -26,7 +26,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
-import com.example.camerax.BuildConfig
+import com.vinayak.camerax.BuildConfig
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date

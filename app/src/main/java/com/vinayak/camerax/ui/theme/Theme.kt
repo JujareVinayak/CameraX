@@ -1,4 +1,4 @@
-package com.example.camerax.ui.theme
+package com.vinayak.camerax.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

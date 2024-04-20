@@ -1,4 +1,4 @@
-package com.example.camerax
+package com.vinayak.camerax
 
 import org.junit.Test
 

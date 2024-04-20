@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.camerax"
+    namespace = "com.vinayak.camerax"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.camerax"
+        applicationId = "com.vinayak.camerax"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

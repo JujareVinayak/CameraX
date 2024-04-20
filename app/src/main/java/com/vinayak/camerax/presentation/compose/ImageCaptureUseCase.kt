@@ -1,4 +1,4 @@
-package com.example.camerax.presentation.compose
+package com.vinayak.camerax.presentation.compose
 
 import android.net.Uri
 import android.util.Log
