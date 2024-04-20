@@ -13,7 +13,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
-                QRCodeScreen()
+                // Uncomment each composable at a time for demo.
+                // ImageCaptureUseCase()
+                // ImageCaptureWithActivityLauncher()
+                // QRCodeScreen()
             }
         }
     }

@@ -30,10 +30,11 @@ import com.example.camerax.BuildConfig
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
+import java.util.Locale
 
 @OptIn(ExperimentalCoilApi::class)
 @Composable
-fun AppContent() {
+fun ImageCaptureWithActivityLauncher() {
 
     val context = LocalContext.current
     val file = context.createImageFile()
@@ -86,13 +87,11 @@ fun AppContent() {
             contentDescription = null
         )
     }
-
-
 }
 
 fun Context.createImageFile(): File {
     // Create an image file name
-    val timeStamp = SimpleDateFormat("yyyyMMdd_HHmmss").format(Date())
+    val timeStamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
     val imageFileName = "JPEG_" + timeStamp + "_"
     val image = File.createTempFile(
         imageFileName, /* prefix */
